@@ -203,9 +203,9 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
   ```
   <br/>
   
-  Com npm:
+  Ciando as tabelas do banco de dados
   ```bash
-    npm install
+    yarn prisma migrate dev 
   ```
 <br>
 
