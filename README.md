@@ -197,13 +197,13 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
   
   ### Instale as Dependências
   
-  Com yarn:
+  Instale com yarn ou npm:
   ```bash
     yarn install
   ```
   <br/>
   
-  Criando as tabelas do banco de dados
+  Crie as tabelas do Banco de Dados
   ```bash
     yarn prisma migrate dev 
   ```
