@@ -203,7 +203,7 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
   ```
   <br/>
   
-  Ciando as tabelas do banco de dados
+  Criando as tabelas do banco de dados
   ```bash
     yarn prisma migrate dev 
   ```
