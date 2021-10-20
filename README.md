@@ -20,7 +20,7 @@
   <li>Gerar um token para autenticar as requisições</li>
   <li>Receber e armazenas menssagens eviadas pelo usuário no Banco de Dados</li>
   <li>Exibir essa menssagem na tela em tempo real</li>
-  <li>Buscar e exibir as 3 menssagens mais recentes presentes no Banco de Dados</li>
+  <li>Buscar e exibir as 3 mensagens mais recentes presentes no Banco de Dados</li>
 </ul>
 <br>
 
