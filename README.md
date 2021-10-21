@@ -32,7 +32,7 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
     JWT_SECRET = // Pode ser qualquer dado
 ```
  ### Obtendo o GITHUB_CLIENT_SECRET e GITHUB_CLIENT_ID
-  Temos que estar logados no GitHub e acessar Settings => Developer Settings => OAuth Apps ou [Clicar Aqui](https://github.com/settings/developers). Nessa aba criaremos a aplicação(**New OAuth App**) e vamos consseguir esses dados.
+  Temos que estar logados no GitHub e acessar Settings => Developer Settings => OAuth Apps ou [Clicar Aqui](https://github.com/settings/developers). Nessa aba criaremos a aplicação(**New OAuth App**) e vamos conseguir esses dados.
   
   O GITHUB_CLIENT_ID é o código disponibilizado em **Client ID**.
   
