@@ -53,6 +53,20 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
   
 <br/>
 
+## 🛠 Ferramentas
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [Prisma](https://www.prisma.io/)
+    - [Prisma-client](https://www.prisma.io/docs/concepts/components/prisma-client)
+  - [Cors](https://www.npmjs.com/package/cors)
+  - [Socket.io](https://socket.io/)
+  - [Dotenv](https://www.npmjs.com/package/dotenv)
+  - [Express](https://expressjs.com/pt-br/guide/routing.html)
+  - [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+  - [Ts-node-dev](https://www.npmjs.com/package/ts-node-dev)
+
+
+<br>
+
 ## 🔀 Rotas
 <br/>
 
