@@ -213,6 +213,16 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
   ```bash
     yarn dev
   ```
+  <br/> 
+  
+  Deve retronar a Porta onde o servidor está sendo executado:
+  ```bash
+    yarn run v1.22.10
+    $ ts-node-dev --exit-child src/server.ts
+    [INFO] 22:02:34 ts-node-dev ver. 1.1.8 (using ts-node ver. 9.1.1, typescript ver. 4.4.4)
+    🚀 Server is running on PORT 4000
+  ```
+  
 <br>
   
 ## 😁 Contrubuindo ao projeto
