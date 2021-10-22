@@ -32,17 +32,28 @@ Primeiro temos que configurar a arquivo .env.example, vamos renomeá-lo para som
     JWT_SECRET = // Pode ser qualquer dado
 ```
  ### Obtendo o GITHUB_CLIENT_SECRET e GITHUB_CLIENT_ID
-  Temos que estar logados no GitHub e acessar Settings => Developer Settings => OAuth Apps ou [Clicar Aqui](https://github.com/settings/developers). Nessa aba criaremos a aplicação(**New OAuth App**) e vamos conseguir esses dados.
-  
-  O GITHUB_CLIENT_ID é o código disponibilizado em **Client ID**.
-  
-  O GITHUB_CLIENT_SECRET é o código gerado(**Generate a new client secret**) em **Client secrets**. Você deve copiar esse código antes de recarregar a página se não tera que gerar outro código.
-  
-  ### Obtendo o JWT_SECRET
-  Nesse podemos colocar qaulquer coisa, durante o evento foi mostrado que poderia se qualquer coisa, depois de ter decidido esse dado foi criptografado usando o MD5 que gera um código. Eu usei o o site [MD5 Hash Generator](https://www.md5hashgenerator.com/) e usei o MD5 Hash 
-  ```
-      Erik => MD5 => c4464d724b7dec8c7d5d58e3da24a960 (Uso esse código aqui nos exemplo)
-  ```
+  Temos que estar logados no GitHub e acessar Settings => Developer Settings => OAuth Apps ou [Clicar Aqui](https://github.com/settings/developers),  crie uma nova aplicação `New OAuth App` e assim podemos conseguir esses dados.
+
+
+- Nomeie a aplicação `NLW-Heat_Node`.
+
+- No campo `Homepage URL` use a URL criada: `http://localhost:4000`
+
+- Nos campo `Authorization callback URL` use a URL: `http://localhost:4000/signin/callback`
+
+
+- Resgistre a aplicação.
+
+
+O GITHUB_CLIENT_ID é o código disponibilizado em `Client ID`.
+
+O GITHUB_CLIENT_SECRET é o código gerado em `Client secrets` cliecando em `Generate a new client secret`. Você deve copiar esse código antes de recarregar a página se não tera que gerar outro código.
+
+### Obtendo o JWT_SECRET
+Nesse podemos colocar qaulquer coisa, durante o evento foi mostrado que poderia se qualquer coisa, depois de ter decidido esse dado foi criptografado usando o MD5 que gera um código. Eu usei o o site [MD5 Hash Generator](https://www.md5hashgenerator.com/) e usei o MD5 Hash 
+```
+    Erik => MD5 => c4464d724b7dec8c7d5d58e3da24a960 (Uso esse código aqui nos exemplo)
+```
 
 <br>
 
